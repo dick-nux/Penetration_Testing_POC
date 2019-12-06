@@ -4,6 +4,7 @@
   - [提权辅助相关](#提权辅助相关)
   - [PC](#PC)
   - [tools](#tools-小工具集合)
+  - [books](#书籍相关)
   - [说明](#%E8%AF%B4%E6%98%8E)
 
 # Penetration_Testing_POC_With_Python
@@ -16,6 +17,8 @@
 - [天翼创维awifi路由器存在多处未授权访问漏洞](天翼创维awifi路由器存在多处未授权访问漏洞.md)
 - [华为WS331a产品管理页面存在CSRF漏洞](华为WS331a产品管理页面存在CSRF漏洞.md)
 - [CVE-2019-16313 蜂网互联企业级路由器v4.31密码泄露漏洞](./CVE-2019-16313%20蜂网互联企业级路由器v4.31密码泄露漏洞.md)
+- [D-Link路由器RCE漏洞](./CVE-2019-16920-D-Link-rce.md)
+- [CVE-2019-13051-Pi-Hole路由端去广告软件的命令注入&权限提升](./CVE-2019-13051)
 
 ## Web APP
 
@@ -53,6 +56,9 @@
 - [IIS/CVE-2017-7269-Echo-PoC](./IIS/CVE-2017-7269-Echo-PoC)
 - [CVE-2019-15107 Webmin RCE](./CVE-2019-15107)
 - [thinkphp5 rce漏洞检测工具](./tp5-getshell)
+- [TP5_RCE合集](./tp5-getshell/TP5_RCE合集.md)
+- [TP3.X-TP5.x](./tp5-getshell/ThinkPHP.md)
+- [关于ThinkPHP框架的历史漏洞分析集合](https://github.com/Mochazz/ThinkPHP-Vuln)
 - [CVE-2019-11510](./CVE-2019-11510)
 - [Redis(<=5.0.5) RCE](./redis-rogue-server)
 - [WeblogicScanLot系列，Weblogic漏洞批量检测工具](./WeblogicScanLot)
@@ -66,18 +72,42 @@
 - [泛微OA管理系统RCE漏洞利用脚本](./泛微OA管理系统RCE漏洞利用脚本.md)
 - [CVE-2019-16759 vBulletin 5.x 0day pre-auth RCE exploit](./CVE-2019-16759%20vBulletin%205.x%200day%20pre-auth%20RCE%20exploit.md)
 - [zentao-getshell 禅道8.2 - 9.2.1前台Getshell](./zentao-getshell)
+- [泛微 e-cology OA 前台SQL注入漏洞](./泛微%20e-cology%20OA%20前台SQL注入漏洞.md)
+- [Joomla-3.4.6-RCE](./Joomla-3.4.6-RCE.md)
+- [Easy File Sharing Web Server 7.2 - GET 缓冲区溢出 (SEH)](./Easy%20File%20Sharing%20Web%20Server%207.2%20-%20GET%20缓冲区溢出%20(SEH).md)
+- [构建ASMX绕过限制WAF达到命令执行(适用于ASP.NET环境)](./构建ASMX绕过限制WAF达到命令执行.md)
+- [CVE-2019-17662-ThinVNC 1.0b1 - Authentication Bypass](./CVE-2019-17662-ThinVNC%201.0b1%20-%20Authentication%20Bypass.md)
+- [CVE-2019-16278andCVE-2019-16279-about-nostromo-nhttpd](./CVE-2019-16278andCVE-2019-16279-about-nostromo-nhttpd.md)
+- [CVE-2019-11043-PHP远程代码执行漏](./CVE-2019-11043)
+- [ThinkCMF漏洞全集和](./ThinkCMF漏洞全集和.md)
+- [CVE-2019-7609-kibana低于6.6.0未授权远程代码命令执行](./CVE-2019-7609-kibana低于6.6.0未授权远程代码命令执行.md)
+- [ecologyExp.jar-泛微ecology OA系统数据库配置文件读取](./tools/ecologyExp.jar)
+- [freeFTP1.0.8-'PASS'远程缓冲区溢出](./freeFTP1.0.8-'PASS'远程缓冲区溢出.md)
+- [rConfig v3.9.2 RCE漏洞](./rConfig%20v3.9.2%20RCE漏洞.md)
+- [apache_solr_rce](./solr_rce.md)
+- [CVE-2019-7580 thinkcmf-5.0.190111后台任意文件写入导致的代码执行](CVE-2019-7580%20thinkcmf-5.0.190111后台任意文件写入导致的代码执行.md)
+- [Apache Flink任意Jar包上传导致远程代码执行](https://github.com/LandGrey/flink-unauth-rce)
+- [用于检测JSON接口令牌安全性测试](https://github.com/ticarpi/jwt_tool)
+- [cve-2019-17424 nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC](cve-2019-17424%20nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC.md)
+- [CVE-2019-12409_Apache_Solr RCE](https://github.com/jas502n/CVE-2019-12409)
+- [Shiro RCE (Padding Oracle Attack)](https://github.com/wuppp/shiro_rce_exp)
 
 ## 提权辅助相关
 
 - [windows-kernel-exploits Windows平台提权漏洞集合](https://github.com/SecWiki/windows-kernel-exploits)
-- [windows 溢出提权小记](https://klionsec.github.io/2017/04/22/win-0day-privilege/)/[本地保存了一份对照](./tools/Local%20Privilege%20Escalation.md)
+- [windows 溢出提权小记](https://klionsec.github.io/2017/04/22/win-0day-privilege/)/[本地保存了一份+Linux&Windows提取脑图](./tools/Local%20Privilege%20Escalation.md)
 - [Windows常见持久控制脑图](./tools/Windows常见持久控制.png)
+- [CVE-2019-0803 Win32k漏洞提权工具](./CVE-2019-0803)
+- [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)
 
 ## PC
 
 - [ 微软RDP远程代码执行漏洞（CVE-2019-0708）](./BlueKeep)
+- [CVE-2019-0708-python版](./BlueKeep/bluekeep-CVE-2019-0708-python)
 - [MS17-010-微软永恒之蓝漏洞](https://github.com/Mr-xn/MS17-010)
 - [macOS-Kernel-Exploit](./macOS-Kernel-Exploit)
+- [CVE-2019-1388 UAC提权 (nt authority\system)](https://github.com/jas502n/CVE-2019-1388)
+- [CVE-2019-1405 and CVE-2019-1322 Microsoft Windows 10 Build 1803 < 1903 - 'COMahawk' Local Privilege Escalation](https://github.com/apt69/COMahawk)
 
 
 ## tools-[小工具集合](./tools)
@@ -87,10 +117,33 @@
 - [python2的socks代理](./tools/s5.py)
 - [dede_burp_admin_path-dedecms后台路径爆破(Windows环境)](./tools/dede_burp_admin_path.md)
 - [PHP 7.1-7.3 disable_functions bypass](./tools/PHP%207.1-7.3%20disable_functions%20bypass.md)
+- [一个各种方式突破Disable_functions达到命令执行的shell](https://github.com/l3m0n/Bypass_Disable_functions_Shell)
 - [cmd下查询3389远程桌面端口](./tools/cmd下查询3389远程桌面端口.md)
 - [伪装成企业微信名片的钓鱼代码](./tools/伪装成企业微信名片的钓鱼代码.txt)
 - [vbulletin5-rce利用工具(批量检测/getshell)](https://github.com/theLSA/vbulletin5-rce)/[保存了一份源码:vbulletin5-rce.py](./tools/vbulletin5-rce.py)
+- [CVE-2017-12615](./tools/CVE-2017-12615.py)
+- [通过Shodan和favicon icon发现真实IP地址](https://github.com/pielco11/fav-up)
+- [Cobalt_Strike扩展插件](./tools/Cobalt_Strike扩展插件.md)
+- [Windows命令行cmd的空格替换](./tools/Windows命令行cmd的空格替换.md)
+- [绕过disable_function汇总](./tools/绕过disable_function汇总.md)
+- [WAF Bypass](https://chybeta.gitbooks.io/waf-bypass/content/)
+- [命令注入总结](./tools/命令注入总结.md)
+- [隐藏wifi-ssid获取 · theKingOfNight's Blog](./tools/隐藏wifi-ssid获取%20·%20theKingOfNight's%20Blog.pdf)
+- [crt.sh证书/域名收集](./tools/crt.sh证书收集.py)
+- [TP漏洞集合利用工具py3版本-来自奇安信大佬Lucifer1993](https://github.com/Mr-xn/TPscan)
+- [Python2编写的struts2漏洞全版本检测和利用工具-来自奇安信大佬Lucifer1993](https://github.com/Mr-xn/struts-scan)
+- [sqlmap_bypass_D盾_tamper](./tools/sqlmap_bypass_D盾_tamper.py)
+- [sqlmap_bypass_安全狗_tamper](./tools/sqlmap_bypass_安全狗_tamper.py)
+- [sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper](./tools/sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper.py)
+- [sqlmap_bypass_云锁_tamper](./tools/sqlmap_bypass_云锁_tamper.py)
+- [masscan+nmap扫描脚本](./tools/masscan%2Bnmap.py)
+- [PHP解密扩展](https://github.com/Albert-Zhan/php-decrypt)
+- [linux信息收集/应急响应/常见后门检测脚本](https://github.com/al0ne/LinuxCheck)
+
+## 书籍相关
+
+- [windwos权限维持系列12篇PDF](./books/Window权限维持)
 
 ## 说明
 
-> 此项目所有文章、代码均来源于互联网，仅供学习参考使用，严禁用于任何非法行为！使用即代表你同意自负责任！
+> 此项目所有文章、代码部分来源于互联网，版权归原作者所有，此项目仅供学习参考使用，严禁用于任何非法行为！使用即代表你同意自负责任！
