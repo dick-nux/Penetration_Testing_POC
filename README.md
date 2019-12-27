@@ -91,6 +91,7 @@
 - [cve-2019-17424 nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC](cve-2019-17424%20nipper-ng_0.11.10-Remote_Buffer_Overflow远程缓冲区溢出附PoC.md)
 - [CVE-2019-12409_Apache_Solr RCE](https://github.com/jas502n/CVE-2019-12409)
 - [Shiro RCE (Padding Oracle Attack)](https://github.com/wuppp/shiro_rce_exp)
+- [CVE-2019-19634-class.upload.php <= 2.0.4任意文件上传](https://github.com/jra89/CVE-2019-19634)
 
 ## 提权辅助相关
 
@@ -99,6 +100,7 @@
 - [Windows常见持久控制脑图](./tools/Windows常见持久控制.png)
 - [CVE-2019-0803 Win32k漏洞提权工具](./CVE-2019-0803)
 - [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)
+- [远控免杀系列](https://github.com/TideSec/BypassAntiVirus)
 
 ## PC
 
@@ -108,6 +110,8 @@
 - [macOS-Kernel-Exploit](./macOS-Kernel-Exploit)
 - [CVE-2019-1388 UAC提权 (nt authority\system)](https://github.com/jas502n/CVE-2019-1388)
 - [CVE-2019-1405 and CVE-2019-1322 Microsoft Windows 10 Build 1803 < 1903 - 'COMahawk' Local Privilege Escalation](https://github.com/apt69/COMahawk)
+- [CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708)
+- [Telegram(macOS v4.9.155353) 代码执行漏洞](https://github.com/Metnew/telegram-links-nsworkspace-open)
 
 
 ## tools-[小工具集合](./tools)
@@ -139,6 +143,10 @@
 - [masscan+nmap扫描脚本](./tools/masscan%2Bnmap.py)
 - [PHP解密扩展](https://github.com/Albert-Zhan/php-decrypt)
 - [linux信息收集/应急响应/常见后门检测脚本](https://github.com/al0ne/LinuxCheck)
+- [RdpThief-从远程桌面客户端提取明文凭据辅助工具](https://github.com/0x09AL/RdpThief)
+- [织梦(DEDECMS)全版本漏洞扫描](https://github.com/lengjibo/dedecmscan)
+- [使用powershell或CMD直接运行命令反弹shell](https://github.com/ZHacker13/ReverseTCPShell)
+- [FTP/SSH/SNMP/MSSQL/MYSQL/PostGreSQL/REDIS/ElasticSearch/MONGODB弱口令检测](https://github.com/netxfly/x-crack)
 
 ## 书籍相关
 
